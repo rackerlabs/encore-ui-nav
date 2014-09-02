@@ -8,4 +8,4 @@ after_success:
 - '[ "${TRAVIS_BRANCH}" == "purge" ] && grunt cloudfiles:production || false'
 env:
     global:
-    secure: fxJyUdU/31MnrCZx1iz8ru/8Vu3HGSzsTNCuGwJetipXpToD1nEPwpeqdV5xcXi8LhFg36UWRye5RSji2RcHlxIKGJW+grGnOz1/KOAKMH4FyAg+Z+H3sZUJcFKRBWHLbIacE1n4xSkpnO5XRLba13JOIutvhLs7QuvxQm1eV7o=
+    secure: "Zb/DkqSIQ81gusnn6jNcWU9OV3OZlzzvYDylCONh20gGjX4JlOe03/btyvj+8lzaRlnRO0ie/CIr/RMgIZHYIr4wZUBxqfDWQS7rQh68gBUILOvCXRiQWnfKa9OShiL84YNDFnK+WWp86KVhqDICyjusK5UKK//E/Ae3k4lZXI8=" 
