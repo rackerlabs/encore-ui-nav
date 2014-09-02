@@ -1,7 +1,7 @@
 language: node_js
 node_js:
 - '0.10'
-before_install: npm install -g jsonlint
+before_install: npm install -g grunt-cli jsonlint
 script:
 - jsonlint -q src/encoreNav.json
 after_success:
