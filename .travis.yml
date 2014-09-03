@@ -5,7 +5,7 @@ before_install: npm install -g grunt-cli jsonlint
 script:
 - jsonlint -q src/encoreNav.json
 after_success:
-- '[ "${TRAVIS_BRANCH}" == "purge" && "${TRAVIS_PULL_REQUEST}" == "false"] && grunt cloudfiles:production || false'
+- '[ "${TRAVIS_BRANCH}" == "purge"] && ["${TRAVIS_PULL_REQUEST}" == "false"] && grunt cloudfiles:production || false'
 env:
     global:
     - secure: "Zb/DkqSIQ81gusnn6jNcWU9OV3OZlzzvYDylCONh20gGjX4JlOe03/btyvj+8lzaRlnRO0ie/CIr/RMgIZHYIr4wZUBxqfDWQS7rQh68gBUILOvCXRiQWnfKa9OShiL84YNDFnK+WWp86KVhqDICyjusK5UKK//E/Ae3k4lZXI8=" 
