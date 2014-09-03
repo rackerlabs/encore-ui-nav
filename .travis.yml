@@ -5,7 +5,7 @@ before_install: npm install -g grunt-cli jsonlint
 script:
   - jsonlint -q src/encoreNav.json
 after_success:
-  - ./scripts
+  - cd ./scripts
   - chmod -R 777 ./deploy.sh
   - ./deploy.sh
 env:
