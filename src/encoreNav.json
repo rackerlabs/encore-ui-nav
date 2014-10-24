@@ -47,7 +47,7 @@
             }, {
                 "href": "/support/events/{{accountNumber}}",
                 "linkText": "Events",
-                "visibility": "('unified-preprod' | rxEnvironmentMatch) || ('local' | rxEnvironmentMatch)",
+                "visibility": "('unified-preprod' | rxEnvironmentMatch) || ('local' | rxEnvironmentMatch) || ('preprod' | rxEnvironmentMatch)",
                 "key": "accountEvents"
             }, {
                 "href": "/support/accounts/{{accountNumber}}",
@@ -60,7 +60,7 @@
         "linkText": "Billing",
         "key": "billing",
         "directive": "rx-billing-search",
-        "visibility": "('unified-preprod' | rxEnvironmentMatch) || ('local' | rxEnvironmentMatch)"
+        "visibility": "('unified-preprod' | rxEnvironmentMatch) || ('local' | rxEnvironmentMatch) || ('preprod' | rxEnvironmentMatch)"
     },
     {
         "linkText": "Cloud",
