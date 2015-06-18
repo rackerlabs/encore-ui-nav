@@ -70,6 +70,24 @@
             }
         ]
     },
+        {
+            "linkText": "Adjustment Credit Transaction",
+            "key": "act",
+            "children": [
+                {
+                    "href": "/adjustment-credit/create",
+                    "linkText": "Create Adjustment Request",
+                    "key": "createAdjustment"
+                }, {
+                    "linkText": "My Adjustment Requests",
+                    "key": "myRequests"
+                }, {
+                    "linkText": "Search Adjustment Requests",
+                    "key": "searchRequests"
+                }
+
+            ]
+        },
     {
         "href": "/billing/search",
         "linkText": "Billing Search (Alpha)",
