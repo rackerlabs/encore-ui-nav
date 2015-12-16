@@ -27,7 +27,7 @@ Here is an example of the workflow for making/testing a change to the nav locall
 
 1. Clone app repo and create new branch (if necessary)
 2. Create a link to the local nav: `ln -s /path/to/encore-ui-nav/src/encoreNav.json /path/to/repo/compiled/encoreNav.json`
-3. [Update config to use local nav](http://rackerlabs.github.io/encore-ui/#/component/configs)
+3. [Update config to use local nav](http://rackerlabs.github.io/encore-ui/#/components/configs)
 ```
 .config(function ($routeProvider, $locationProvider, $httpProvider, $windowProvider, routesCdnPathProvider) {
     ...
