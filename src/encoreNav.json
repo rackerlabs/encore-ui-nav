@@ -96,6 +96,11 @@
                         "key": "createAdjustment"
                     },
                     {
+                        "href": "/adjustment-credit/myrequests",
+                        "linkText": "My Adjustment Requests",
+                        "key": "myAdjustments"
+                    },
+                    {
                         "href": "/adjustment-credit/search",
                         "linkText": "Search Adjustment Request",
                         "key": "searchAdjustment"
