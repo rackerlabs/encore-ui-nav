@@ -96,11 +96,6 @@
                         "key": "createAdjustment"
                     },
                     {
-                        "href": "/adjustment-credit/myrequests",
-                        "linkText": "My Adjustment Requests",
-                        "key": "myAdjustments"
-                    },
-                    {
                         "href": "/adjustment-credit/search",
                         "linkText": "Search Adjustment Request",
                         "key": "searchAdjustment"
@@ -119,6 +114,60 @@
         "linkText": "DCX",
         "key": "dcx",
         "children": [
+            {
+                "href": "/dcx/torq",
+                "linkText": "Torq",
+                "key": "torq",
+                "children": [
+                    {
+                        "href": "/dcx/torq/release_notes",
+                        "linkText": "Release Notes",
+                        "key": "releaseNotes"
+                    },
+                    {
+                        "href": "/dcx/torq/kick",
+                        "linkText": "FireKick",
+                        "key": "kick",
+                        "children": [
+                            {
+                                "href": "/dcx/torq/kick/templates",
+                                "linkText": "FireKick Templates",
+                                "key": "templates"
+                            },
+                            {
+                                "href": "/dcx/torq/kick/variables",
+                                "linkText": "FireKick Variables",
+                                "key": "variables"
+                            }
+                        ]
+                    },
+                    {
+                        "href": "/dcx/torq/devices",
+                        "linkText": "Devices",
+                        "key": "devices"
+                    },
+                    {
+                        "href": "/dcx/torq/reports",
+                        "linkText": "Reports",
+                        "key": "reports"
+                    },
+                    {
+                        "href": "/dcx/torq/backup_jobs",
+                        "linkText": "Backups",
+                        "key": "backup_jobs"
+                    },
+                    {
+                        "href": "/dcx/torq/netsec_files",
+                        "linkText": "Files",
+                        "key": "netsec_files"
+                    },
+                    {
+                        "href": "/dcx/torq/update_jobs",
+                        "linkText": "Jobs",
+                        "key": "update_jobs"
+                    }
+                ]
+            },
             {
                 "href": "/dcx/infrastructure",
                 "linkText": "Infrastructure Manager",
