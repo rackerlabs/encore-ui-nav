@@ -27,7 +27,7 @@ Here is an example of the workflow for making/testing a change to the nav locall
 
 1. Clone app repo and create new branch (if necessary)
 2. Create a link to the local nav: `ln -s /path/to/encore-ui-nav/src/encoreNav.json /path/to/repo/compiled/encoreNav.json`
-3. [Update config to use local nav](http://rackerlabs.github.io/encore-ui/#/components/configs)
+3. [Update config to use local nav](http://rackerlabs.github.io/encore-ui/ngdocs/index.html#/api/quarks.service:routesCdnPath/)
 ```
 .config(function ($routeProvider, $locationProvider, $httpProvider, $windowProvider, routesCdnPathProvider) {
     ...
@@ -93,7 +93,7 @@ For example, part of the JSON looks like this:
 
 This is saying that the navigation menu should have a "Ticketing" item (defined by `linkText`), which when clicked will expand and contain `"My Selected Queues`" and `"My Tickets"` items.
 
-For full details on the allowed syntax, see the "Navigation Menu JSON Structure" section of [http://rackerlabs.github.io/encore-ui/#/component/rxApp](http://rackerlabs.github.io/encore-ui/#/component/rxApp).
+For full details on the allowed syntax, see the "Navigation Menu JSON Structure" section of [http://rackerlabs.github.io/encore-ui/#/components/rxApp](http://rackerlabs.github.io/encore-ui/#/components/rxApp).
 
 Access-Control-Allow-Origin
 ===========================
