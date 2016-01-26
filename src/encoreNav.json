@@ -23,7 +23,7 @@
                 "childVisibility":  ["rxPathParams", { "param": "accountNumber" }],
                 "children": [
                     {    
-                        "href": "/cloud/api_limits/{{accountNumber}}/{{user}}",
+                        "href": "/cloud/apilimits/{{accountNumber}}/{{user}}",
                         "linkText": "API Limits"
                     }, {
                         "href": "/cloud/{{accountNumber}}/{{user}}/servers",
