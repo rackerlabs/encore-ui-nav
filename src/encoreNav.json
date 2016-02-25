@@ -26,11 +26,11 @@
                         "href": "/cloud/apilimits/{{accountNumber}}/{{user}}",
                         "linkText": "API Limits"
                     }, {
-                        "href": "/cloud/{{accountNumber}}/{{user}}/cbs/snapshots",
-                        "linkText": "Block Storage Snapshots"
-                    }, {
                         "href": "/cloud/{{accountNumber}}/{{user}}/cbs/volumes",
                         "linkText": "Block Storage Volumes"
+                    }, {
+                        "href": "/cloud/{{accountNumber}}/{{user}}/cbs/snapshots",
+                        "linkText": "Block Storage Snapshots"
                     }, {
                         "href": "/cloud/{{accountNumber}}/{{user}}/cdn/services",
                         "linkText": "CDN Services"
@@ -47,11 +47,11 @@
                         "href": "/cloud/{{accountNumber}}/{{user}}/heat",
                         "linkText": "Cloud Orchestration (Heat)"
                     }, {
-                        "href": "/cloud/{{accountNumber}}/{{user}}/images",
-                        "linkText": "Cloud Server Images"
-                    }, {
                         "href": "/cloud/{{accountNumber}}/{{user}}/servers",
                         "linkText": "Cloud Servers"
+                    }, {
+                        "href": "/cloud/{{accountNumber}}/{{user}}/images",
+                        "linkText": "Cloud Images"
                     }, {
                         "href": "/cloud/{{accountNumber}}/{{user}}/databases/instances",
                         "linkText": "Databases"
