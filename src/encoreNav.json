@@ -291,7 +291,7 @@
         "key": "admin",
         "children": [
             {
-                "href": "/admin/recent-signups/listRecentSignups",
+                "href": "/admin/recent-signups/list",
                 "linkText": "Recent Signups"
             }
         ]
