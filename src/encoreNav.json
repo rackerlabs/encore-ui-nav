@@ -79,7 +79,7 @@
                         "linkText": "Audit History",
                         "key": "accountReports"
                     },{
-                        "href": "/logging/{{accountNumber}}/",
+                        "href": "/logging/{{accountNumber}}/{{user}}",
                         "linkText": "Encore Activity Log",
                         "key": "encoreLogs"
                     }
