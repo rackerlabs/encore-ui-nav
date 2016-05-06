@@ -50,11 +50,11 @@
                         "href": "/cloud/{{accountNumber}}/{{user}}/servers",
                         "linkText": "Cloud Servers"
                     }, {
-                        "href": "/cloud/sites/{{accountNumber}}/{{user}}",
-                        "linkText": "Cloud Sites"
-                    },{
                         "href": "/cloud/{{accountNumber}}/{{user}}/images",
                         "linkText": "Cloud Images"
+                    },{
+                        "href": "/cloud/sites/{{accountNumber}}/{{user}}",
+                        "linkText": "Cloud Sites"
                     }, {
                         "href": "/cloud/{{accountNumber}}/{{user}}/databases/instances",
                         "linkText": "Databases"
