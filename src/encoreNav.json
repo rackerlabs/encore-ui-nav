@@ -15,8 +15,7 @@
             {
                 "linkText": "Billing",
                 "href": "/billing/{{accountNumber}}",
-                "key": "accountBilling",
-                "visibility": ["rxHideIfUkAccount"]
+                "key": "accountBilling"
             }, {
                 "linkText": "Cloud Products",
                 "key": "cloud",
@@ -135,7 +134,7 @@
         "linkText": "DCX",
         "key": "dcx",
         "children": [
-            {        
+            {
                 "href": "/dcx/torq",
                 "linkText": "Torq",
                 "key": "torq",
