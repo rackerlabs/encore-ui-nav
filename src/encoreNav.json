@@ -15,8 +15,7 @@
             {
                 "linkText": "Billing",
                 "href": "/billing/{{accountNumber}}",
-                "key": "accountBilling",
-                "visibility": ["rxHideIfUkAccount"]
+                "key": "accountBilling"
             }, {
                 "linkText": "Cloud Products",
                 "key": "cloud",
