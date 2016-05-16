@@ -300,12 +300,55 @@
             }
         ]
     }, {
-        "linkText": "Admin Tools",
+    "linkText": "Admin Tools",
         "key": "admin",
         "children": [
             {
                 "href": "/admin/recent-signups/list",
                 "linkText": "Recent Signups"
+            }
+        ]
+        }, {
+        "linkText": "Network Security",
+        "key": "netsec",
+        "children": [
+            {
+                "linkText": "Project Genesis",
+                "children": [
+                    {
+                        "href": "/netsec/genesis/services",
+                        "linkText": "Services"
+                    }, {
+                        "href": "/netsec/genesis/edgedevices",
+                        "linkText": "Edge Devices"
+                    }, {
+                        "href": "/netsec/genesis/sourceips",
+                        "linkText": "Source IPs"
+                    }, {
+                        "href": "/netsec/genesis/ipblocks",
+                        "linkText": "IP Blocks"
+                    }, {
+                        "href": "/netsec/genesis/translations",
+                        "linkText": "Translations"
+                    }, {
+                        "href": "/netsec/genesis/distros",
+                        "linkText": "Distros"
+                    }, {
+                        "href": "/netsec/genesis/distroports",
+                        "linkText": "Distro Ports"
+                    }, {
+                        "href": "/netsec/genesis/paloaltos",
+                        "linkText": "Palo Altos"
+                    }, {
+                        "href": "/netsec/genesis/aggrs",
+                        "linkText": "Aggrs"
+                    }, {
+                        "href": "/netsec/genesis/vlans",
+                        "linkText": "VLANs"
+                    }]
+            }, {
+                "href": "/netsec/raven",
+                "linkText": "Raven"
             }
         ]
     }]
