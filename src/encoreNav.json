@@ -65,7 +65,7 @@
                         "href": "/cloud/{{accountNumber}}/{{user}}/loadbalancers",
                         "linkText": "Load Balancers"
                     }, {
-                        "href": "/cloud/{{accountNumber}}/{{user}}/networks",
+                        "href": "/cloud/networks/{{accountNumber}}/{{user}}",
                         "linkText": "Networks"
                     }
                 ]
