@@ -56,7 +56,7 @@
                         "href": "/cloud/sites/{{accountNumber}}/{{user}}",
                         "linkText": "Cloud Sites"
                     }, {
-                        "href": "/cloud/{{accountNumber}}/{{user}}/databases/instances",
+                        "href": "/cloud/dbaas/{{accountNumber}}/{{user}}/instances",
                         "linkText": "Databases"
                     }, {
                         "href": "/cloud/dns/{{accountNumber}}/{{user}}",
