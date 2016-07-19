@@ -213,10 +213,73 @@
         ]
     },
     {
-        "href": "/support",
         "linkText": "Support Service",
         "key": "supportService",
-        "directive": "rx-support-service-search"
+        "directive": "rx-support-service-search",
+        "children": [
+            {
+                "href": "/support/accounts",
+                "linkText": "Accounts",
+                "key": "accounts"
+            },
+            {
+                "href": "/support/rackers",
+                "linkText": "Rackers",
+                "key": "rackers"
+            },
+            {
+                "href": "/support/groups",
+                "linkText": "Groups",
+                "key": "groups"
+            },
+            {
+                "linkText": "Teams",
+                "key": "teams",
+                "children": [
+                    {
+                        "href": "/support/teams",
+                        "linkText": "Support Teams",
+                        "key": "supportTeams"
+                    },
+                    {
+                        "href": "/support/phone-teams",
+                        "linkText": "Phone Teams",
+                        "key": "phoneTeams"
+                    },
+                    {
+                        "href": "/support/chat-teams",
+                        "linkText": "Chat Teams",
+                        "key": "chatTeams"
+                    },
+                    {
+                        "href": "/support/huntgroups",
+                        "linkText": "Huntgroups",
+                        "key": "huntgroups"
+                    }
+                ]
+            },
+            {
+                "linkText": "Attributes",
+                "key": "attributes",
+                "children": [
+                    {
+                        "href": "/support/badges",
+                        "linkText": "Badges",
+                        "key": "badges"
+                    },
+                    {
+                        "href": "/support/roles",
+                        "linkText": "Roles",
+                        "key": "roles"
+                    },
+                    {
+                        "href": "/support/note-categories",
+                        "linkText": "Note Categories",
+                        "key": "noteCategories"
+                    }
+                ]
+            }
+        ]
     }, {
         "linkText": "Ticketing",
         "key": "ticketing",
