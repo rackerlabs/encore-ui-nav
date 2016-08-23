@@ -218,50 +218,34 @@
         "directive": "rx-support-service-search",
         "children": [
             {
-                "href": "/support/accounts",
-                "linkText": "Accounts",
-                "key": "accounts"
-            },
-            {
-                "href": "/support/rackers",
-                "linkText": "Rackers",
-                "key": "rackers"
-            },
-            {
                 "href": "/support/groups",
                 "linkText": "Groups",
                 "key": "groups"
             },
             {
+                "href": "/support/teams",
                 "linkText": "Teams",
-                "key": "teams",
+                "key": "teams"
+            },
+            {
+                "linkText": "Attributes",
+                "key": "attributes",
                 "children": [
                     {
-                        "href": "/support/teams",
-                        "linkText": "Support Teams",
-                        "key": "supportTeams"
-                    },
-                    {
-                        "href": "/support/phone-teams",
-                        "linkText": "Phone Teams",
+                        "href": "/support/phone-lists",
+                        "linkText": "Phone Lists",
                         "key": "phoneTeams"
                     },
                     {
-                        "href": "/support/chat-teams",
-                        "linkText": "Chat Teams",
+                        "href": "/support/chat-links",
+                        "linkText": "Chat Links",
                         "key": "chatTeams"
                     },
                     {
                         "href": "/support/huntgroups",
                         "linkText": "Huntgroups",
                         "key": "huntgroups"
-                    }
-                ]
-            },
-            {
-                "linkText": "Attributes",
-                "key": "attributes",
-                "children": [
+                    },
                     {
                         "href": "/support/badges",
                         "linkText": "Badges",
