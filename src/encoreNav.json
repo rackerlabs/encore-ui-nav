@@ -213,6 +213,7 @@
         ]
     },
     {
+        "href": "/support",
         "linkText": "Support Service",
         "key": "supportService",
         "directive": "rx-support-service-search",
@@ -240,11 +241,6 @@
                         "href": "/support/chat-links",
                         "linkText": "Chat Links",
                         "key": "chatTeams"
-                    },
-                    {
-                        "href": "/support/huntgroups",
-                        "linkText": "Huntgroups",
-                        "key": "huntgroups"
                     },
                     {
                         "href": "/support/badges",
