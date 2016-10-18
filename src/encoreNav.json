@@ -145,6 +145,11 @@
                         "key": "releaseNotes"
                     },
                     {
+                        "href": "/dcx/torq/kick/config",
+                        "linkText": "FireKick Config",
+                        "key": "firekickconfig"
+                    },
+                    {
                         "href": "/dcx/torq/kick/templates",
                         "linkText": "FireKick Templates",
                         "key": "templates"
