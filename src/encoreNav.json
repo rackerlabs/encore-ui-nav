@@ -145,21 +145,19 @@
                         "key": "releaseNotes"
                     },
                     {
-                        "href": "/dcx/torq/kick",
-                        "linkText": "FireKick",
-                        "key": "kick",
-                        "children": [
-                            {
-                                "href": "/dcx/torq/kick/templates",
-                                "linkText": "Templates",
-                                "key": "templates"
-                            },
-                            {
-                                "href": "/dcx/torq/kick/variables",
-                                "linkText": "Variables",
-                                "key": "variables"
-                            }
-                        ]
+                        "href": "/dcx/torq/kick/config",
+                        "linkText": "FireKick Config",
+                        "key": "firekickconfig"
+                    },
+                    {
+                        "href": "/dcx/torq/kick/templates",
+                        "linkText": "FireKick Templates",
+                        "key": "templates"
+                    },
+                    {
+                        "href": "/dcx/torq/kick/variables",
+                        "linkText": "FireKick Variables",
+                        "key": "variables"
                     },
                     {
                         "href": "/dcx/torq/devices",
