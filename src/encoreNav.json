@@ -216,7 +216,50 @@
         "href": "/support",
         "linkText": "Support Service",
         "key": "supportService",
-        "directive": "rx-support-service-search"
+        "directive": "rx-support-service-search",
+        "children": [
+            {
+                "href": "/support/groups",
+                "linkText": "Groups",
+                "key": "groups"
+            },
+            {
+                "href": "/support/teams",
+                "linkText": "Teams",
+                "key": "teams"
+            },
+            {
+                "linkText": "Attributes",
+                "key": "attributes",
+                "children": [
+                    {
+                        "href": "/support/phone-lists",
+                        "linkText": "Phone Lists",
+                        "key": "phoneTeams"
+                    },
+                    {
+                        "href": "/support/chat-links",
+                        "linkText": "Chat Links",
+                        "key": "chatTeams"
+                    },
+                    {
+                        "href": "/support/badges",
+                        "linkText": "Badges",
+                        "key": "badges"
+                    },
+                    {
+                        "href": "/support/roles",
+                        "linkText": "Roles",
+                        "key": "roles"
+                    },
+                    {
+                        "href": "/support/note-categories",
+                        "linkText": "Note Categories",
+                        "key": "noteCategories"
+                    }
+                ]
+            }
+        ]
     }, {
         "linkText": "Ticketing",
         "key": "ticketing",
