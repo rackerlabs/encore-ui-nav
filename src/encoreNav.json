@@ -14,7 +14,7 @@
             },
             {
                 "linkText": "Billing",
-                "href": "/billing/{{accountNumber}}",
+                "href": "/billing/{{accountType}}/{{accountNumber}}",
                 "key": "accountBilling"
             }, {
                 "linkText": "Cloud Products",
