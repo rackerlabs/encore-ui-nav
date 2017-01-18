@@ -4,7 +4,7 @@
         "linkText": "Account",
         "key": "accountLvlTools",
         "directive": "rx-account-search",
-        "childVisibility": ["rxPathParams", { "param": "accountNumber" }],
+        "childVisibility": ["rxPathParams", { "param": "accountNumber", "exclude": { "name": "accountType", "values": ["MANAGED_HOSTING", "DEDICATED"] } }],
         "childHeader": "<strong class='current-search'>Current Account:</strong><span class='current-result'>#{{route.current.pathParams.accountNumber}}</span> <rx-account-users></rx-account-users>",
         "children": [
             {
