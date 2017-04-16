@@ -213,6 +213,34 @@
         ]
     },
     {
+        "linkText": "DCX",
+        "key": "dcx",
+        "children": [
+            {
+                "href": "/dcx/infrastructure-encore",
+                "linkText": "Infrastructure Manager",
+                "key": "infrastructure",
+                "children": [
+                    {
+                        "href": "/dcx/infrastructure-encore/cells",
+                        "linkText": "Cells",
+                        "key": "cells"
+                    },
+                    {
+                        "href": "/dcx/infrastructure-encore/containers",
+                        "linkText": "Containers",
+                        "key": "containers"
+                    },
+                    {
+                        "href": "/dcx/infrastructure-encore/deployments",
+                        "linkText": "Deployments",
+                        "key": "deployments"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "href": "/support",
         "linkText": "Support Service",
         "key": "supportService",
