@@ -268,8 +268,7 @@
             {
                 "href": "/ticketing/list",
                 "linkText": "My Selected Queues"
-            },
-            {
+            }, {
                 "href": "/ticketing/my",
                 "linkText": "My Tickets"
             },
