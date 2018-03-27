@@ -116,7 +116,20 @@
                         "href": "/adjustment-credit/search",
                         "linkText": "Search Adjustment Request",
                         "key": "searchAdjustment"
+                    },
+                    {
+                        "linkText": "Admin",
+                        "key": "act",
+                        "children": [
+                            {
+                                "href": "/adjustment-credit/workflow-management",
+                                "linkText": "Workflow Management",
+                                "key": "workflowManagement"
+                            }
+
+                        ]
                     }
+
                 ]
             }, {
                 "href": "/billing/search",
