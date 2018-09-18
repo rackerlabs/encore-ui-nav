@@ -118,18 +118,15 @@
                         "key": "searchAdjustment"
                     },
                     {
-                        "linkText": "Admin",
-                        "key": "act",
-                        "children": [
-                            {
-                                "href": "/adjustment-credit/workflow-management",
-                                "linkText": "Workflow Management",
-                                "key": "workflowManagement"
-                            }
-
-                        ]
+                        "href": "/adjustment-credit/workflow-management",
+                        "linkText": "Admin - Workflow",
+                        "key": "adminWorkflow"
+                    },
+                    {
+                        "href": "/adjustment-credit/responsible-department-management",
+                        "linkText": "Admin - Responsible Departments",
+                        "key": "adminResponsibleDepartments"
                     }
-
                 ]
             }, {
                 "href": "/billing/search",
