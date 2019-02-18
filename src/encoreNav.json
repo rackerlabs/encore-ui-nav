@@ -8,12 +8,17 @@
         "childHeader": "<strong class='current-search'>Current Account:</strong><span class='current-result'>#{{route.current.pathParams.accountNumber}}</span> <rx-account-users></rx-account-users>",
         "children": [
             {
-                "href": "/accounts/{{accountNumber}}",
-                "key": "accountOverview",
-                "linkText": "Overview"
+                "linkText": "TestLink",
+                "href": "",
+                "key": ""
             },
             {
-                "linkText": "Billing",
+                "linkText": "Overview",
+                "href": "/accounts/{{accountNumber}}",
+                "key": "accountOverview"
+            },
+            {
+                "linkText": "Billing Testing",
                 "href": "/billing/{{accountType}}/{{accountNumber}}",
                 "key": "accountBilling"
             }, {
@@ -209,6 +214,11 @@
                 "linkText": "Load Balancer Service",
                 "key": "lbs",
                 "directive": "lbs-search"
+            }, {
+                "href": "/dcx/ucp",
+                "linkText": "Unified Control Panel",
+                "key": "ucp",
+                "directive": "ucp-query"
             }
         ]
     },
