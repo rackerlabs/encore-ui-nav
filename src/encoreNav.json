@@ -219,6 +219,11 @@
                 "linkText": "Load Balancer Service",
                 "key": "lbs",
                 "directive": "lbs-search"
+            }, {
+                "href": "/dcx/ucp",
+                "linkText": "Unified Control Panel",
+                "key": "ucp",
+                "directive": "ucp-query"
             }
         ]
     },
