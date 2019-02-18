@@ -8,17 +8,13 @@
         "childHeader": "<strong class='current-search'>Current Account:</strong><span class='current-result'>#{{route.current.pathParams.accountNumber}}</span> <rx-account-users></rx-account-users>",
         "children": [
             {
-                "linkText": "TestLink",
-                "href": "",
-                "key": ""
-            },
-            {
-                "linkText": "Overview",
                 "href": "/accounts/{{accountNumber}}",
+                "key": "accountOverview",
+                "linkText": "Overview",
                 "key": "accountOverview"
             },
             {
-                "linkText": "Billing Testing",
+                "linkText": "Billing",
                 "href": "/billing/{{accountType}}/{{accountNumber}}",
                 "key": "accountBilling"
             }, {
