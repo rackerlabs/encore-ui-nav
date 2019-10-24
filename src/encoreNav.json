@@ -195,28 +195,6 @@
                         "key": "update_jobs"
                     }
                 ]
-            },
-            {
-                "href": "/dcx/infrastructure",
-                "linkText": "Infrastructure Manager",
-                "key": "infrastructure",
-                "children": [
-                    {
-                        "href": "/dcx/infrastructure/cells",
-                        "linkText": "Cells",
-                        "key": "cells"
-                    },
-                    {
-                        "href": "/dcx/infrastructure/containers",
-                        "linkText": "Containers",
-                        "key": "containers"
-                    },
-                    {
-                        "href": "/dcx/infrastructure/deployments",
-                        "linkText": "Deployments",
-                        "key": "deployments"
-                    }
-                ]
             }, {
                 "href": "/dcx/load-balancer-service",
                 "linkText": "Load Balancer Service",
